@@ -14,12 +14,12 @@ const Navbar = () => {
     >
       <div className='w-full flex justify-between items-center max-w-7x1 mx-auto'>
         <Link
-        to="/"
-        className="flex items-center gap-2"
-        onClick={() => {
-          setActive("");
-          window.scrollTo(0, 0);
-        }}
+          to="/"
+          className="flex items-center gap-2"
+          onClick={() => {
+            setActive("");
+            window.scrollTo(0, 0);
+          }}
         >
           <img src={creativeLogo} alt="logo" className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>Prajjval &nbsp; <span className='sm:block hidden'>| Personal Portfolio</span></p>

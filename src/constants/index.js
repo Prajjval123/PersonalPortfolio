@@ -24,8 +24,13 @@ import {
     tripguide,
     threejs,
     finance,
-    MovieReact
+    MovieReact, 
   } from "../assets";
+  import careerbanao from '../assets/company/careerbanao.png'
+  import frontendimage from '../assets/company/frontendimage.png'
+  import backendimage from '../assets/company/backendimage.png'
+  import fullstack from '../assets/company/fullstack.png'
+  
   
   export const navLinks = [
     {
@@ -118,64 +123,67 @@ import {
   ];
   
   const experiences = [
-    // {
-    //   title: "React.js Developer",
-    //   company_name: "Starbucks",
-    //   icon: starbucks,
-    //   iconBg: "#383E56",
-    //   date: "March 2020 - April 2021",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "Internship",
+      company_name: "CareerBanao",
+      icon: careerbanao,
+      iconBg: "#383E56",
+      date: "Dec-2023 - Feb-2024",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Front-end",
+      company_name: "",
+      icon: frontendimage,
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 - Jan 2024",
+      points: [
+        // "Developing and maintaining web applications using React.js and other related technologies.",
+        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        // "Implementing responsive design and ensuring cross-browser compatibility.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating Front-end Projects using React.","Learned various UI libraries along with learning React."
+        ,"I have learned tailwind css for styling.","I have worked with library like three.js and framer motion, to create 3d wepages."
+      ],
+    },
+    {
+      title: "Back-end",
+      company_name: "",
+      icon: backendimage,
+      iconBg: "#383E56",
+      date: "Jan 2023 - Jan 2024",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Full stack Developer",
+      company_name: "",
+      icon: fullstack
+      ,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but he proved me wrong.",
+        "He is really good in creating responsive webpages, specially 3d webpages. Having 3d animation in a website surely stand out from the competition and increases user interaction.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -183,7 +191,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like he does.",
+        "Working with him is a good decision. A web developer who truly cares about their clients success like he does. Creating webpages with 3d animation, can surely increases user interactivity.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -191,9 +199,9 @@ import {
     },
     {
       testimonial:
-        "After Prajjval optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Prajjval really cares about user experience. He always comes with a creative idea to a complex problem. I would say he achieved quite excellent skills in React, tailwind and  three.js.",
       name: "Lisa Wang",
-      designation: "CTO",
+      designation: "Developer",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
