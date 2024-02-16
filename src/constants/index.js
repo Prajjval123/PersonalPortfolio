@@ -15,15 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
-    finance,
+    reactcrypto,
     MovieReact, 
   } from "../assets";
   import careerbanao from '../assets/company/careerbanao.png'
@@ -230,24 +226,24 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Finance Expense Tracker",
+      name: "React Crpto App",
       description:
-        "Web application that enables users to track their expenses.",
+        "A webapp which displays the realtime crypto coins data on the screen with the help of chart, bars etc. There is a feature in the app that allow us to display the chart based on different times",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "Tailwind CSS",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
+          name: "chartjs",
           color: "pink-text-gradient",
         },
       ],
-      image: finance,
+      image: reactcrypto,
       source_code_link: "https://github.com/",
     },
     {
